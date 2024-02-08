@@ -28,6 +28,6 @@ resource "aws_eks_cluster" "my_cluster" {
   }
 }
 
-output "kubeconfig" {
-  value = aws_eks_cluster.my_cluster.kubeconfig
-}
+# output "kubeconfig" {
+#   value = aws_eks_cluster.my_cluster.kubeconfig
+# }
