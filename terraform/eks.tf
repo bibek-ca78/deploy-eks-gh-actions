@@ -67,6 +67,7 @@ resource "aws_iam_policy" "eks_node_group_policy" {
         "ec2:DescribeSubnets",
         "ec2:DescribeTags",
         "ec2:DescribeVolumes",
+        "eks:DescribeCluster",
         "eks:DescribeNodegroup",
         "eks:ListNodegroups",
         "autoscaling:DescribeAutoScalingGroups",
