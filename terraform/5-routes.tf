@@ -1,18 +1,18 @@
-resource "aws_route_table" "private" {
-  vpc_id = aws_vpc.main.id
+# resource "aws_route_table" "private" {
+#   vpc_id = aws_vpc.main.id
 
-  tags = {
-    Name = "private"
-  }
-}
+#   tags = {
+#     Name = "private"
+#   }
+# }
 
-resource "aws_route_table" "public" {
-  vpc_id = aws_vpc.main.id
+# resource "aws_route_table" "public" {
+#   vpc_id = aws_vpc.main.id
 
-  tags = {
-    Name = "public"
-  }
-}
+#   tags = {
+#     Name = "public"
+#   }
+# }
 
 # resource "aws_route" "internet_gateway_route" {
 #   route_table_id         = aws_route_table.public.id
